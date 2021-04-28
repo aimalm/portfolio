@@ -4,7 +4,7 @@ import person from '../assets/PersonalData'
 const Header = ()=>{
     return(
         
-        <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top" >
+        <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#home"><img src={person.about.logo}  alt="berihu logo"/></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-spy="scroll" data-target="#navbarResponsive">

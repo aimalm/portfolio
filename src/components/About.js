@@ -3,7 +3,8 @@ import person from '../assets/PersonalData';
 
 const About = ()=>{
     return(
-        <div className="container-fluid padding" id="about">
+        
+        <div className="container-fluid about" id="about">
             <div className="row headers padding">
                 <div className="col-12 text-center ">
                      <h1 className="display-4 animated wow slideInLeft">About Me</h1>
@@ -41,6 +42,7 @@ const About = ()=>{
                 </div>
             </div>
         </div>
+        
     )
 
 };

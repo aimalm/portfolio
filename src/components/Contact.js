@@ -30,7 +30,7 @@ const Contact =()=>{
         }
 
     return(
-        <div className="contact">
+        <div className="contact about">
         <div id="contact" className="container-fluid">
             <div className="row headers text-center padding">
                 <div className="col-12">

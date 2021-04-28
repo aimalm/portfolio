@@ -24,7 +24,7 @@ const Home = () => {
             
                 <a href="#projects"><button type="button" className="btn btn-primary btn-lg ml-3">See Projects</button></a>
                 <div className="dropdown animate__animated animate__bounce animate__repeat-3 animate__slower">
-                    <a href="#about"><i className="fas fa-arrow-circle-down"/></a>  
+                    <a href="#about2"><i className="fas fa-arrow-circle-down"/></a>  
                 </div>
             </div>
         </div>

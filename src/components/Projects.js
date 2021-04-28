@@ -3,7 +3,7 @@ import person from '../assets/PersonalData'
 
 const Projects = ()=>{
     return(
-        <div id="projects" className="container-fluid padding text-white">
+        <div id="projects" className="container-fluid padding text-white about">
             <div className="row headers padding text-center">
                 <div className="col-12">
                     <h1 className="display-4">projects</h1>

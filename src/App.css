@@ -15,6 +15,7 @@ html, body{
     background: #271D33 !important;
     z-index: 8;
   }
+
   .navbar-brand img{
     height: 3rem;
   }
@@ -92,6 +93,10 @@ html, body{
     color:#DB4415;
   }
   /* About */
+  .about{
+    padding-top: 4rem !important;
+  }
+
  
   .headers{
     width:75%;
@@ -117,6 +122,7 @@ html, body{
   }
   .display-4{
     text-transform: uppercase;
+    color: black;
   }
   .profile_image{
       height: auto;
@@ -155,11 +161,10 @@ html, body{
     font-size: 200%;
   }
   
-  
   /* Projects */
   #projects{
-    padding-left: 50px;
-    background-color: rgb(197, 195, 195);
+    background-color: white;
+    padding: 0rem 7rem;
   }
  
   .fa-caret-down{
@@ -185,13 +190,13 @@ html, body{
   }
   
   .fa-linkedin-in{
-    color: #007bb6;
+    color: #DB4415;
   }
   .fa-github{
-    color:#211F1F;
+    color:#DB4415;
   }
-  .fa-twitter{
-    color:#00aced;
+  .fa-dev{
+    color:#DB4415;
   }
   
   .list-inline .fab:hover{
@@ -231,7 +236,6 @@ html, body{
     position: fixed;
     top: 45%;
     z-index: 9;
-    background-color: #db4315e5 ;
     border-top-right-radius: 30%;
     border-bottom-right-radius: 30%;
   }

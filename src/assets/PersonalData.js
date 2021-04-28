@@ -76,35 +76,35 @@ const personData = {
         {
             title:"Culturd",
             technologies:['React', `Bootstrap`,`Node`,`Express`, `Mongodb`, `Netlify`,`Heroku`],
-            about:`King size group project at Becode`,
+            about:`MERN full stack group project`,
             image: culturd,
             url:`https://culturd.netlify.app/`
         },
         {
-            title:"ho-ho-holiday",
+            title:"Ho-ho-holiday",
             technologies:['HTML', `JavaScript`,`CSS`,`themoviedb.org API`],
-            about:`Group project at becode`,
+            about:`Christmas theme JavaScript game`,
             image: christmasGame,
             url:`https://deroodirk.github.io/ho-ho-holiday/`
         },
         {
-            title:"rock paper scissors ",
+            title:"Rock paper scissors ",
             technologies:['HTML', `CSS3`,`JavaScript`],
-            about:`Simple game biuld in Javascript`,
+            about:`Simple game biuld in JavaScript`,
             image: RPS,
             url:`https://aimalm.github.io/rock-paper-scissor/`
         },
         {
             title:"Todo List",
             technologies:['React',`Netlify`],
-            about:`This app is about learning CRUD opperations in react `,
+            about:`Learning CRUD opperations in react `,
             image:todo,
             url:`https://aimalm.netlify.app/`
         },
         {
             title:" Portfolio",
             technologies:['React', `Bootstrap`,`Netlify`],
-            about:`personal portfolio about me `,
+            about:`Personal portfolio about me `,
             image:portfolio,
             url:`https://aimalm.netlify.app/`
         }
