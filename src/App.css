@@ -104,6 +104,21 @@ html, body{
   .about{
     padding-top: 4rem !important;
   }
+  .about_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+   
+  }
+  .about_content p{
+    font-size: 20px;
+  }
+  .download{
+    display: flex;
+    justify-content: flex-end;
+  }
 
  
   .headers{

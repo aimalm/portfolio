@@ -16,8 +16,8 @@ const About = ()=>{
                         <figcaption className="figure-caption text-center p-3">{person.about.name}</figcaption>
                     </figure>
                 </div>
-                <div className="col-xs-12 col-sm-12 col-md-8">
-                    <div>
+                <div className="col-xs-12 col-sm-12 col-md-8 about_content">
+                    <div class = "about_content">
                         <p >
                             Enthusiastic and fast-learner looking for junior Web Development job.    
                         </p>
@@ -31,7 +31,7 @@ const About = ()=>{
                         </p>
                     </div>
 
-                    <div className="">
+                    <div className="download">
                         <a href={person.about.resume} target="_blank" rel="noopener noreferrer">
                             <button type="button" className="btn btn-primary btn-lg">
                            <i className="fas fa-download pr-2">  <span> Download Resume</span></i>
