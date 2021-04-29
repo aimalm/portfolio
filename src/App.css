@@ -82,6 +82,14 @@ html, body{
 
 
   }
+  .btn-primary:focus{
+    background-color: #db4315c2;
+    color: rgb(255, 255, 255);
+    border: 1px rgba(0, 0, 0, 0.267) solid;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+
+  }
   .carousel-caption .dropdown{
     margin-top: 8rem;
   }
@@ -134,6 +142,9 @@ html, body{
     background-color: #271D33 !important;
   
   }  
+  .skills_text{
+    color: white;
+  }
   
   .fa-laptop-code {
     color: #e54d26;
@@ -188,7 +199,18 @@ html, body{
     font-size: 150%;
     margin: 18px;
   }
-  
+  .contact{
+    background-image: url(./assets/images/contact-bg.png);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+
+  }
+ .contact_text{
+   color: white;
+ }
+ .fa-headset{
+   color: white;
+ }
   .fa-linkedin-in{
     color: #DB4415;
   }
@@ -307,7 +329,7 @@ html, body{
   }
   @media (max-width: 576px){
 
-    .socialMediaContainer, .socialMediaContainer ul {
+   /* .socialMediaContainer, .socialMediaContainer ul {
       display: flex;
       position:fixed;
       top: 92%;
@@ -323,7 +345,7 @@ html, body{
       justify-items: center;
       justify-content: space-around;
     }
-    
+    */
     .carousel-caption{
       top:40%;
     }
@@ -367,6 +389,9 @@ html, body{
     }
     .language li{
       font-size: 15px;
+    }
+    #projects{
+      padding: 0rem 1rem;
     }
   
   }

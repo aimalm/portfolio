@@ -34,7 +34,7 @@ const Contact =()=>{
         <div id="contact" className="container-fluid">
             <div className="row headers text-center padding">
                 <div className="col-12">
-                    <h1 className="display-4">Contact Me</h1>
+                    <h1 className="contact_text">Contact Me</h1>
             </div>
                 <hr/>
             </div>
@@ -44,10 +44,10 @@ const Contact =()=>{
                         <div className="row text-center padding">
                             <div className="col-12 p-5">
                             <i className="fas fa-headset fa-5x"></i>
-                                <h2>Live Chat</h2>   
+                                <h2 className="contact_text">Live Chat</h2>   
                             </div>
                             <div className="col-12">
-                                <p className="lead">
+                                <p className="lead contact_text">
                                     I am online Monday-Friday between 15:00 - 16:00 <br />
                                     European Central Time
                                 </p>
@@ -63,7 +63,7 @@ const Contact =()=>{
                     </div>
                 </div>
                 <div className=" text-center p-5 col-sm-12 col-md-6 col-lg-6">
-                    <h2 className="pb-2">I'm Ready Let's Talk</h2>
+                    <h2 className="pb-2 contact_text">I'm Ready Let's Talk</h2>
                     <form className="row g-3 needs-validation" onSubmit={sendEmail}>
                         <div className="mb-3">
                             <input type="text" className="form-control" name="name" id="validationCustom01" placeholder="Your Name" required />

@@ -21,7 +21,7 @@ const Projects = ()=>{
                                          <img src={project.image} alt={project.title} className="card-img-top" />
                                       </a> 
                                     <div className="card-body">
-                                        <button className="btn btn-outline-info" data-toggle="collapse" data-target={`#${index}`}>
+                                        <button className="btn btn-outline-info btn-primary" data-toggle="collapse" data-target={`#${index}`}>
                                             Click For Detail
                                             <i className="fas fa-caret-down" />
                                         </button>
