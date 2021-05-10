@@ -1,13 +1,13 @@
 # React-portfolio
 
-This react-portfolio template is created by create-react-app and bootstrap4.
+This react-portfolio template is created by create-react-app and bootstrap.
 
 Check the template here [Demo](https://maarij.netlify.app)
 
 ## Installation
 
 ```bash
-git clone https://github.com/Berihugebre/Portfolio.git
+git clone https://github.com/aimalm/portfolio.git
 cd Portfolio
 npm install
 npm start
