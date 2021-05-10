@@ -29,7 +29,7 @@ detailed personal information will be here
 ```
 ## Deployment
 
-Finally, deploy it to [netlify](https://app.netlify.com/) and the ```CONTACT FORM``` is configured with mailjs.
+Finally, deploy it to [netlify](https://app.netlify.com/) and the ```CONTACT FORM``` is configured with [emailjs](https://www.emailjs.com/docs/examples/reactjs/).
 
 ### deployment status
 
